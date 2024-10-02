@@ -1,4 +1,4 @@
-public class App {
+public class Main {
 
     /**
      * Entry point of the app.
@@ -6,6 +6,10 @@ public class App {
      * @param args Command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Endroit endroit = new Endroit();
+        endroit.identifiant = "id1";
+        endroit.nom = "endroit";
+        endroit.isImmeuble = true;
+        System.out.println(endroit);
     }
 }
