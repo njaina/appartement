@@ -24,4 +24,28 @@ public class Appartement {
         Occupé,
         EnCoursDeLibération,
     }
+
+    public void setIdentifiant(String identifiant) {
+        this.identifiant = identifiant;
+    }
+
+    public String getIdentifiant() {
+        return identifiant;
+    }
+
+    public void setTitre(String titre) {
+        this.titre = titre;
+    }
+
+    public String getTitre() {
+        return titre;
+    }
+
+    void setDescription(String description) {
+        this.description = description;
+    }
+
+    String getDescription() {
+        return description;
+    }
 }

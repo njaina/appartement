@@ -9,4 +9,28 @@ public class Endroit {
         this.nom = nom;
         this.isImmeuble = isImmeuble;
     }
+
+    public void setIdentifiant(String identifiant) {
+        this.identifiant = identifiant;
+    }
+
+    public String getIdentifiant() {
+        return identifiant;
+    }
+
+    public void setNom(String nom) {
+        this.nom = nom;
+    }
+
+    public String getNom() {
+        return nom;
+    }
+
+    public void setIsImmeube(Boolean isImmeuble) {
+        this.isImmeuble = isImmeuble;
+    }
+
+    public String getIsImmeuble() {
+        return isImmeuble;
+    }
 }

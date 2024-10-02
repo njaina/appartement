@@ -6,4 +6,12 @@ public class Immeuble extends Endroit {
         super("", "", true);
         this.nombre_étage = nombre_étage;
     }
+
+    public void setNombreEtage(int nombre_étage) {
+        this.nombre_étage = nombre_étage;
+    }
+
+    public int getNombreEtage() {
+        return nombre_étage;
+    }
 }
